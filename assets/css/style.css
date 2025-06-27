@@ -177,3 +177,85 @@
     border-bottom: none;
 }
 
+
+/* SIA Collections Hot Pink & Black Theme */
+:root {
+    --sia-hot-pink: #FF1493;
+    --sia-dark-pink: #DC143C;
+    --sia-black: #000000;
+    --sia-white: #FFFFFF;
+    --sia-gray: #F5F5F5;
+}
+
+/* Primary color updates */
+.text__primary,
+.primary__btn,
+.header__menu--link:hover,
+.footer__widget--menu__text:hover {
+    color: var(--sia-hot-pink) !important;
+}
+
+.primary__btn {
+    background-color: var(--sia-hot-pink) !important;
+    border-color: var(--sia-hot-pink) !important;
+}
+
+.primary__btn:hover {
+    background-color: var(--sia-dark-pink) !important;
+    border-color: var(--sia-dark-pink) !important;
+}
+
+/* Logo styling */
+.main__logo--img,
+.footer__logo--img {
+    max-height: 50px !important;
+    width: auto !important;
+}
+
+/* Header styling */
+.header__shipping--text {
+    background-color: var(--sia-hot-pink) !important;
+}
+
+/* Product cards */
+.product__card--price .current__price {
+    color: var(--sia-hot-pink) !important;
+    font-weight: bold;
+}
+
+/* Navigation active states */
+.header__menu--link.active,
+.header__menu--link:focus {
+    color: var(--sia-hot-pink) !important;
+}
+
+/* Footer background */
+.footer__section {
+    background-color: var(--sia-black) !important;
+}
+
+/* Button hover effects */
+.btn:hover,
+.newsletter__subscribe--button:hover {
+    background-color: var(--sia-dark-pink) !important;
+}
+
+/* SIA Collections specific styling */
+.sia-brand-text {
+    color: var(--sia-hot-pink) !important;
+    font-weight: 600;
+}
+
+.sia-price {
+    color: var(--sia-hot-pink) !important;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Mobile responsive logo */
+@media (max-width: 768px) {
+    .main__logo--img,
+    .footer__logo--img {
+        max-height: 40px !important;
+    }
+}
